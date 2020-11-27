@@ -1,0 +1,45 @@
+fieldset {
+    width: 40%;
+    margin: 0 auto;
+}
+
+legend {
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+
+.initials {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px;
+}
+
+.sport {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.pol-stat {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+span {
+    margin-right: 10px;
+}
+
+.email {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+textarea {
+    margin: 10px 0 0 30px;
+}
+
+button {
+    margin-left: 30px;
+    margin-top: 10px;
+}

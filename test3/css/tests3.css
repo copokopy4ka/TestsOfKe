@@ -1,5 +1,88 @@
 .header {
-    width: 100px;
-    height: 100px;
-    background-color: red;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    width: 550px;
+    height: 50px;
+    background-color: rgb(190, 190, 190);
+    border: 2px solid blue;
+    border-radius: 50px 5px;
+    background-color: #33ADFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frst {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.frst1 {
+    display: inline;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.frsta {
+    padding: 5px 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    width: 60px;
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+}
+
+.menu .frsta:hover {
+    background-color: blue;
+    border-radius: 35px 5px;
+}
+
+.sknd {
+    width: 200px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  1.2em;
+}
+
+li ul {
+    position: absolute;
+    display: none;
+    margin-left: 154px;
+    margin-top: -1.5em;
+}
+
+.sknd2 {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: #666;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    border-bottom: none;
+}
+
+.sknd2:hover {
+    color: #ffe;
+    background-color: #5488af;
+}
+
+li:hover ul {
+    display: block;
+}
+
+.brd {
+    border-bottom: 1px solid #ccc;
 }

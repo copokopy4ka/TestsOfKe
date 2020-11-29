@@ -1,0 +1,150 @@
+.conteiner-in {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    background-color: grey;
+    margin: 5px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.conteiner :nth-child(1) {
+    display: flexs;
+    justify-content: flex-end;
+}
+
+.conteiner :nth-child(2) {
+    display: flexs;
+    justify-content: center;
+}
+
+.conteiner :last-child {
+    display: flexs;
+    justify-content: flex-start;
+}
+
+.conteiner-next {
+    display: flex;
+    width: 600px;
+    height: 600px;
+    background-color: red;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.con-next-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    background-color: green;
+}
+
+.con-next-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    background-color: rgb(26, 25, 94);
+}
+
+.con-next-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    background-color: rgb(114, 39, 70);
+}
+
+.con-next-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    background-color: rgb(255, 231, 19);
+}
+
+.con-next-five {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 80%;
+    background-color: rgb(5, 34, 36);
+}
+
+.con-next-last {
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    margin: 2px;
+}
+
+.btn {
+    width: 180px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(247, 177, 177);
+}
+
+.con-other {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(247, 177, 177);
+}
+
+.con-otherer {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(194, 58, 58);
+    top: 150px;
+    left: 150px;
+}
+
+.flexis {
+    background-color: rgb(58, 58, 58);
+    width: 20px;
+    height: auto;
+    margin: 5px;
+}
+
+.flexis:nth-child(3) {
+    height:  35%;
+    align-self: center;
+}
+
+.fofooter {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-top: 100px;
+}
+
+.grom {
+    margin: 15px;
+    align-self: flex-start;
+}
+
+.text {
+    font-size: 1.2em;
+    background: #9fff9f;
+    padding: 15px;
+
+}

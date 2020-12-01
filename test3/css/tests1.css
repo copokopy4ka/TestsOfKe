@@ -137,9 +137,18 @@
     margin-top: 100px;
 }
 
+.text1 {
+    display: flex;
+}
+
 .grom {
-    margin: 15px;
-    align-self: flex-start;
+    height: 200px;
+    width: 200px;
+}
+
+.kavela {
+    height: 240px;
+    width: 200px;
 }
 
 .text {

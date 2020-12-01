@@ -67,6 +67,7 @@ li ul {
 .sknd2 {
     display: block;
     padding: 5px;
+    width: 200px;
     text-decoration: none;
     color: #666;
     border: 1px solid #ccc;

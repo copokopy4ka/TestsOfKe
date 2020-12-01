@@ -1,0 +1,31 @@
+.conteiner {
+    background-color: rgb(228, 228, 228);
+    text-align: center;
+    margin-left: 10px;
+}
+
+.comments {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+
+#cm1 {
+    flex-basis: 40%;
+    border-color: indigo;
+}
+
+#cm2 {
+    flex-basis: 40%;
+    border-color: indigo;
+}
+
+.propose {
+    margin-left: 10px;
+}
+
+#prp {
+    width: 100%;
+}
